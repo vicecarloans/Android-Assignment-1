@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Conference</string>
+    <string name="login">Sign in</string>
+    <string name="emailInput">Email</string>
+    <string name="passwordInput">Password</string>
+    <string name="logoContent">Application Logo</string>
 </resources>
