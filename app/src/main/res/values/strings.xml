@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">Conference</string>
+    <string name="detail_page_title">Conference Details</string>
+    <string name="share">Share with</string>
+    <string name="twitter">Twitter</string>
+    <string name="speakers">Speakers</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="attendees">Attendees</string>
     <string name="login">Sign in</string>
     <string name="emailInput">Email</string>
     <string name="passwordInput">Password</string>
     <string name="logoContent">Application Logo</string>
+    <string name="more">Click here to load 47 more</string>
     <!--Conference 1-->
     <string name="conferenceTitle1">REST API</string>
     <string name="conferenceDescription1">APIs are eating the digital world: From public APIs which allow companies to turbo scale their cloud and SaaS business model...</string>
@@ -28,6 +35,55 @@
     <string name="conferenceSpeaker4">Speakers: Chris Milton, Camelia Scott, and 5 more...</string>
     <string name="conferenceAttendees4">120/140</string>
     <string name="conferenceSponsor4">Sponsors: Microsoft Inc.</string>
+    <!--Speaker 1-->
+    <string name="name1">Jack Daniel</string>
+    <string name="email1">jack.d@twentyfourseven.com</string>
+    <string name="title1">Senior DevOps</string>
+    <string name="company1">24[7]</string>
+    <!--Speaker 2-->
+    <string name="name2">Emily Jin</string>
+    <string name="email2">emily.j@docker.com</string>
+    <string name="title2">Cloud Specialist</string>
+    <string name="company2">Docker Inc.</string>
+    <!--Speaker 3-->
+    <string name="name3">Scott Jay</string>
+    <string name="email3">scott.j@google.com</string>
+    <string name="title3">Google Cloud Specialist</string>
+    <string name="company3">Google Inc.</string>
+    <!--Speaker 4-->
+    <string name="name4">Karen Page</string>
+    <string name="email4">karen.p@amazon.com</string>
+    <string name="title4">AWS Expert</string>
+    <string name="company4">Amazon Web Services</string>
+    <!--Speaker 5-->
+    <string name="name5">Andrea Martinez</string>
+    <string name="email5">andrea.m@ibm.ca</string>
+    <string name="title5">Senior Java Developer</string>
+    <string name="company5">IBM Inc.</string>
+    <!--Sponsor 1-->
+    <string name="sponsor1">Docker Inc.</string>
+    <string name="description1">Docker Inc. is the company behind development of Docker(software), an open-source project that automates the deployment of code inside the software containers.</string>
+    <string name="location1">Location: San Francisco, California</string>
+    <!--Sponsor 2-->
+    <string name="sponsor2">Red Hat Inc.</string>
+    <string name="description2">Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community. </string>
+    <string name="location2">Location: Raleigh, North Carolina</string>
+    <!--Sponsor 3-->
+    <string name="sponsor3">Google LLC</string>
+    <string name="description3">Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.</string>
+    <string name="location3">Location: Mountain View, California</string>
+    <!--Attendee 1-->
+    <string name="attendeeName1">Ray Allen</string>
+    <string name="attendeeOccupation1">Occupation: Computer Science Student</string>
+    <string name="workplace1">Study at: University of Toronto</string>
+    <!--Attendee 2-->
+    <string name="attendeeName2">Bob Stone</string>
+    <string name="attendeeOccupation2">Occupation: Junior Software Developer</string>
+    <string name="workplace2">Work at: Walmart Lab</string>
+    <!--Attendee 3-->
+    <string name="attendeeName3">Sam Smith</string>
+    <string name="attendeeOccupation3">Occupation: DevOps Engineer</string>
+    <string name="workplace3">Work at: Facebook Inc.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

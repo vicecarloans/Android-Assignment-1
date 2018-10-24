@@ -21,7 +21,10 @@
         <activity
             android:name=".Dashboard"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Speakers"></activity>
+        <activity android:name=".Details" />
+        <activity android:name=".ListSpeakers" />
+        <activity android:name=".ListSponsors" />
+        <activity android:name=".ListAttendees"></activity>
     </application>
 
 </manifest>

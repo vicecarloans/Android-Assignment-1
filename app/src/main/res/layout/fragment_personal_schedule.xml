@@ -26,6 +26,7 @@
                 android:id="@+id/imgPersonalEvent1"
                 android:layout_width="110dp"
                 android:layout_height="69dp"
+                android:layout_marginTop="8dp"
                 android:contentDescription="@string/conferenceTitle2"
                 android:src="@drawable/jenkins"
                 app:layout_constraintStart_toStartOf="parent"
@@ -33,24 +34,24 @@
 
             <TextView
                 android:id="@+id/titlePersonalEvent1"
-                android:layout_width="253dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:text="@string/conferenceTitle3"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/imgPersonalEvent1"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.045" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/descriptionPersonalEvent1"
-                android:layout_width="250dp"
-                android:layout_height="74dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
@@ -59,14 +60,13 @@
                 android:textColor="#FFF"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.974"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgPersonalEvent1"
                 app:layout_constraintTop_toBottomOf="@+id/titlePersonalEvent1" />
 
             <TextView
                 android:id="@+id/speakersPersonalConference1"
-                android:layout_width="250dp"
-                android:layout_height="18dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
@@ -76,14 +76,13 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.976"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgPersonalEvent1"
                 app:layout_constraintTop_toBottomOf="@+id/descriptionPersonalEvent1" />
 
             <TextView
                 android:id="@+id/sponsorsPersonalConference1"
-                android:layout_width="236dp"
-                android:layout_height="18dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="8dp"
@@ -93,8 +92,7 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.886"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgPersonalEvent1"
                 app:layout_constraintTop_toBottomOf="@+id/speakersPersonalConference1" />
 
             <TextView
