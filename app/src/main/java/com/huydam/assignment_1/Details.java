@@ -22,9 +22,9 @@ public class Details extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_details);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        speakers = (TextView) findViewById(R.id.txtSpeakers);
+        speakers = (TextView) findViewById(R.id.btnSpeakers);
         speakers.setOnClickListener(Details.this);
-        sponsors = (TextView) findViewById(R.id.txtSponsors);
+        sponsors = (TextView) findViewById(R.id.btnSponsors);
         sponsors.setOnClickListener(Details.this);
         attendees = (TextView) findViewById(R.id.txtAttendees);
         attendees.setOnClickListener(Details.this);
@@ -41,10 +41,10 @@ public class Details extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v){
         Intent intent;
         switch(v.getId()){
-            case R.id.txtSpeakers:
+            case R.id.btnSpeakers:
                 intent = new Intent(v.getContext(), ListSpeakers.class);
                 break;
-            case R.id.txtSponsors:
+            case R.id.btnSponsors:
                 intent = new Intent(v.getContext(), ListSponsors.class);
                 break;
             default:
